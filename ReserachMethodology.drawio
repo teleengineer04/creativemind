@@ -1,1 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2023-10-21T15:34:36.124Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="15.9.6" etag="X6PzCicPq_2xtja5-7JE" type="github"><diagram id="y4YXe84zRx1chiUyvBD6">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-10-22T02:13:12.238Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="lDpcLq-GwwUkO8K3Khwt" version="15.9.6" type="github">
+  <diagram id="y4YXe84zRx1chiUyvBD6" name="Page-1">
+    <mxGraphModel dx="1038" dy="540" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dQXhIldzLiZbOScr7s7O-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dQXhIldzLiZbOScr7s7O-1" target="dQXhIldzLiZbOScr7s7O-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dQXhIldzLiZbOScr7s7O-1" value="&lt;b&gt;Start&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="60" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dQXhIldzLiZbOScr7s7O-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="dQXhIldzLiZbOScr7s7O-2" target="dQXhIldzLiZbOScr7s7O-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dQXhIldzLiZbOScr7s7O-2" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;Literature Review:&lt;/b&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;Architecture Unet&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;Image Segmentation" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="170" y="40" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dQXhIldzLiZbOScr7s7O-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="dQXhIldzLiZbOScr7s7O-4" target="dQXhIldzLiZbOScr7s7O-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dQXhIldzLiZbOScr7s7O-4" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;&lt;b&gt;Infrastructure Setup:&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;Setup Infrastructure&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;Data Load -&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;Kaggle Dataset&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="390" y="40" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dQXhIldzLiZbOScr7s7O-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="dQXhIldzLiZbOScr7s7O-5" target="dQXhIldzLiZbOScr7s7O-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dQXhIldzLiZbOScr7s7O-5" value="&lt;div&gt;&lt;span&gt;&lt;b&gt;Data PreProcessing:&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;Image normalization, &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;resizing, and &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;augmentation techniques&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="610" y="40" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dQXhIldzLiZbOScr7s7O-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="dQXhIldzLiZbOScr7s7O-6" target="dQXhIldzLiZbOScr7s7O-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dQXhIldzLiZbOScr7s7O-6" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;Model Implementation:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;DeepLabv3,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;U-Net&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;EfficientNet models&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="610" y="160" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dQXhIldzLiZbOScr7s7O-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="dQXhIldzLiZbOScr7s7O-7" target="dQXhIldzLiZbOScr7s7O-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dQXhIldzLiZbOScr7s7O-7" value="&lt;div&gt;&lt;b&gt;Training &amp;amp; Validation:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="390" y="160" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dQXhIldzLiZbOScr7s7O-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="dQXhIldzLiZbOScr7s7O-8" target="dQXhIldzLiZbOScr7s7O-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dQXhIldzLiZbOScr7s7O-8" value="&lt;div&gt;&lt;b&gt;Performance Evaluation:&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;Model evaluation metrics&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;Accuracy,&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;Sensitivity (recall), &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;Specificity, and F1 score&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="170" y="160" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dQXhIldzLiZbOScr7s7O-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="dQXhIldzLiZbOScr7s7O-9" target="dQXhIldzLiZbOScr7s7O-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dQXhIldzLiZbOScr7s7O-9" value="&lt;div&gt;&lt;span style=&quot;text-align: left&quot;&gt;&lt;b&gt;Comparative Analysis&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;Quantitative&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;Qualitative &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="170" y="280" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dQXhIldzLiZbOScr7s7O-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="dQXhIldzLiZbOScr7s7O-10" target="dQXhIldzLiZbOScr7s7O-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dQXhIldzLiZbOScr7s7O-10" value="&lt;div&gt;&lt;b&gt;Optimization:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Fine tune best performing model&lt;span style=&quot;text-align: left&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: left ; white-space: pre&quot;&gt;	&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="390" y="280" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dQXhIldzLiZbOScr7s7O-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="dQXhIldzLiZbOScr7s7O-11" target="dQXhIldzLiZbOScr7s7O-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dQXhIldzLiZbOScr7s7O-11" value="&lt;div&gt;&lt;b&gt;Documentation &amp;amp; Reporting:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Insights &amp;amp; Interpretation&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="610" y="280" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dQXhIldzLiZbOScr7s7O-12" value="&lt;b&gt;End&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="655" y="400" width="80" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
